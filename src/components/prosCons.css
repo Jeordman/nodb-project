@@ -1,0 +1,205 @@
+
+.left-pros-cons{
+    width: 28vw;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    float: left;
+    background-image: linear-gradient( #e0474c,#e0dfdd);
+    border-radius: 30px 50px 0px 0px;
+    font-family: 'Strait', sans-serif;
+}
+
+.right-pros-cons{
+    width: 28vw;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    margin-top: 3vh;
+    margin-right: 1vw;
+    float: right;
+    /* background-image: linear-gradient(rgb(0, 41, 128),rgb(0, 119, 255)); */
+    background-image: linear-gradient(#7acfd6,#e0dfdd);
+    border-radius: 50px 30px 0px 0px;
+    font-family: 'Strait', sans-serif;
+    /* (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner): */
+}
+
+
+
+ 
+
+
+.header-left{
+    display: flex;
+    height: 4vh;
+    width: 5%;
+
+
+}
+
+.add-pro-left{
+    width: 5vw
+}
+
+.header-right{
+    float: right;
+    height: 4vh;
+    width: 50%
+
+}
+
+.add-pro-right{
+    width: 5vw;
+}
+
+.left-pros{
+margin-top: 3vh;
+margin-left: 2%;
+width: 50%;
+height: 90%;
+color: #2b2b2b;
+font-size: 20px;
+overflow-y: scroll;
+}
+
+.left-cons{
+    margin-top: 3vh;
+    width: 50%;
+    height: 90%;
+    color: #2b2b2b;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.right-pros{
+    margin-top: 3vh;
+    width: 50%;
+    height: 90%;
+    color: #2b2b2b;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.right-cons{
+    margin-top: 3vh;
+    width: 50%;
+    height: 90%;
+    color: #2b2b2b;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.left-foot{
+    float: left;
+    width: 20vw;
+    height: 5vh;
+    width: 28vw;
+    margin-left: 1vw;
+    background-color: #e0474c;
+    border-radius: 0px 0px 30px 50px;
+    color:rgb(255, 255, 255);
+}
+
+.right-foot{
+    float: right;
+    width: 20vw;
+    height: 5vh;
+    width: 28vw;
+    margin-right: 1vw;
+    background-color: #7acfd6;
+    border-radius: 0px 0px 50px 30px;
+    color:rgb(255, 255, 255);
+}
+
+.add-pro-input-left{
+    position: absolute;
+    width: 5vw;
+    height: 2vh;
+    margin-left: 2%;
+    margin-top: 1vh;
+    font-family: 'Strait', sans-serif;
+}
+
+.add-pro-left-button{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 1.25vh;
+    font-family: 'Strait', sans-serif;
+    height: 2.5vh;
+}
+
+.add-pro-left-button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-pro-input-right{
+    position: absolute;
+    width: 5vw;
+    height: 2vh;
+    margin-left: 15%;
+    margin-top: 1vh;
+    font-family: 'Strait', sans-serif;
+}
+
+.add-pro-right-button{
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 1.25vh;
+    font-family: 'Strait', sans-serif;
+    height: 2.5vh;
+}
+
+.add-pro-right-button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* other side */
+
+.add-pro-input-left-2{
+    position: absolute;
+    width: 5vw;
+    height: 2vh;
+    margin-left: 2%;
+    margin-top: 1vh;
+    font-family: 'Strait', sans-serif;
+}
+
+.add-pro-left-button-2{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 1.25vh;
+    font-family: 'Strait', sans-serif;
+    height: 2.5vh;
+}
+
+.add-pro-left-button-2:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-pro-input-right-2{
+    position: absolute;
+    width: 5vw;
+    height: 2vh;
+    margin-left: 15%;
+    margin-top: 1vh;
+    font-family: 'Strait', sans-serif;
+}
+
+.add-pro-right-button-2{
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 1.25vh;
+    font-family: 'Strait', sans-serif;
+    height: 2.5vh;
+}
+
+.add-pro-right-button-2:hover{
+    cursor: pointer;
+    font-weight: bold;
+}

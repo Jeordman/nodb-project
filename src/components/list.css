@@ -1,0 +1,25 @@
+.left-bar{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 20vw;
+    height: 100vh;
+    border-radius: 0px 120px 0px 5px;
+    overflow-y: scroll;
+    /* background-image: linear-gradient( rgb(0, 119, 255), rgb(8, 15, 119));
+     */
+     background-color: #e0474c;
+}
+
+.right-bar{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 20vw;
+    height: 100vh;
+    border-radius: 120px 0px 0px 0px;
+    overflow-y: scroll;
+    /* background-image: linear-gradient( rgb(0, 119, 255), rgb(8, 15, 119)); */
+    background-color: #7acfd6;
+}
+

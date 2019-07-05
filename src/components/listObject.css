@@ -1,0 +1,42 @@
+.left-bar-object{
+    width: 20vw;
+    height:  45vh;
+    color: rgb(252, 252, 252); 
+    margin-bottom: 1vh; 
+    opacity: .8;
+}
+
+.product-name{
+    font-family: 'Strait', sans-serif;
+    font-size: 30px;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+}
+
+.switch-out-button{
+    font-size: 15px;
+    border-radius: 15px;
+    float: right;
+    margin-right: .5vw;
+    opacity: .5;
+}
+
+.switch-out-button:hover{
+    cursor: pointer;
+    opacity:1;
+}
+
+.delete-button{
+    font-size: 15px;
+    border-radius: 15px;
+    float: left;
+    margin-left: .5vw;
+    opacity: .5;
+}
+
+.delete-button:hover{
+    cursor: pointer;
+    opacity:1;
+}

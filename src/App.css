@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: linear-gradient(to right, rgb(0, 41, 128),rgb(0, 119, 255)); */
+  background-color: #e0dfdd;
+  position: absolute;
+}
+
+button{
+  outline: none;
+}
+
+input{
+  outline: none;
+}
+
